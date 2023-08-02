@@ -1,0 +1,56 @@
+@charset "UTF-8";
+
+body {
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    color: green;
+}
+ /* essa é a conf. do h1... mas se eu quiser personalizar apenas algum, o id serve "#*/
+
+ /*
+ em HTML é id    = em CSS é #
+ em HTML é class = em CSS é .
+ */
+
+ /*
+ id é ÚNICO
+ class pode ser usada várias vezes
+ */
+
+h1#principal {
+    text-align: center;
+    background-color: aliceblue;
+}
+
+h2 {
+    color: rgb(6, 48, 6);
+}
+
+/*personalizando uma CLASSE, no caso os h2 basicos=verde, intermediario=amarelo e avancado=vermelho vão ficar iguais em sua classe*/
+.basico {
+    color: rgb(27, 11, 255);
+}
+
+.intermediario {
+    color: rgb(93, 82, 241);
+}
+
+.avancado {
+    color: rgb(120, 118, 238);
+}
+
+/*consigo colocar id e class no mesmo elemento
+consigo colocar mais de 1 classe no mesmo elemento "espaço"*/
+
+.destaque {
+    color: yellow;
+}
+
+.destaque2 {
+    background-color: beige;
+}
+
+/*para personalizar só 1 palavra do texto a tag SPAN*/

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modelo de Caixas</title>
+    <style>
+        h1 { /*box-level*/
+            /*se eu quiser colocar em inline:
+            display:inline;
+            mas não vai ter altura-largura no inline
+            */
+            background-color: aquamarine;
+            height: 300px;
+            width: 300px;
+
+            /*simplificando linhas*/
+            /*border-width: 10px;
+            border-style: solid;
+            border-color: red;*/
+
+            /*todas acima border, viram essa:*/
+            border: 10px solid darkgreen;
+
+            /*padding-top: 10px;
+            padding-right: 10px;
+            padding-bottom: 10px;
+            padding-left: 10px;*/
+
+            /*todas acima padding, viram essa: lembrando q são como um relógio, acima, do lado, baixo, lado, os px
+            1 valor = 10px igual em todos os 4 lados
+            2 valores = 2 lados iguais/2 lados iguais exemplo, 10px encima e embaixo, 20 px laterais
+            */
+            padding: 10px;
+
+            margin: 20px 20px 40px 20px;
+
+            outline: 5px dashed salmon;
+        }
+
+        a { /*inline-level
+            mesma coisa, posso converter em block com: 
+            display: block;
+            */
+            border-width: 10px;
+            border-style: solid;
+            border-color: red;
+        }
+    </style>
+</head>
+<body> <!--user agent é o navegador q esta exibindo o conteúdo-->
+    <h1>Exemplo de caixa box-level</h1>
+    <p>Parágrafos também são exemplos de box-level, mas os <a href="#">links são exemplos de caixas inline-level</a>. Vamos ver como tudo isso funciona</p>
+</body>
+</html>

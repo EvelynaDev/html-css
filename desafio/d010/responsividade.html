@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de Responsividade</title>
+    <style>
+        body {
+            background-color: gray;
+        }
+
+        main {
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+
+/*min e max da pagina para ver em cel, pc, etc usa a extenção para facilitar*/
+            min-width: 320px;
+            max-width: 800px;
+            margin: auto;
+        }
+
+        img { /*imagem ocupa 100% do espaço*/
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <h1>Testando Responsividade</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi repudiandae laudantium, neque quo ipsa, fugiat eius assumenda cumque unde asperiores aperiam rem reprehenderit dolorem accusamus. Consectetur nisi earum maxime ipsa! Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente ipsum ducimus at exercitationem ab autem repudiandae vel rem natus reiciendis distinctio rerum quibusdam pariatur iure culpa accusamus, sunt enim error? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus sapiente esse expedita dolor vitae exercitationem doloremque odio, voluptatum asperiores quod fugit distinctio, facilis tempore a qui aperiam vero magnam hic.
+        </p>
+        <picture>
+            <source media="(max-width: 500px)" srcset="imagens/irina-blok-pq.jpg">
+            <img src="imagens/irina-blok.jpg" alt="Irina Block">
+        </picture>
+        <!--WINDOW RESIZER EXTENÇÃO DO CHROME PARA VISUALIZAR DIFERENTES JANELAS, PC, CELULAR, TV ETC-->
+    </main>
+</body>
+</html>

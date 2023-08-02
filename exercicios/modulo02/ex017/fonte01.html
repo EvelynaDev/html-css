@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes em CSS</title>
+    <!--Procure usar sempre as fonts de combinação seguras/ site: CSS WEB SAFE FONTS - W3SCHOOLS-->
+    <!--UM jeito que aparece em todos os navegadores, são, colocar a classificação da fonte, serif, sans-serif, etc / exemplo / font-family:monospace;-->
+    <!--para usar a font work Sans, precisa do cód. "import"
+    Fonts basicas como "Arial" não da para mudar-->
+    <style> 
+        body { /*Arial, se não achar, Helvetica, se não, sans-serif*/
+        
+        /* 
+        Medidas Absolutas
+        cm, mm, in(polegadas), px, pt, pc
+
+        Medidas Relativas
+        em, medida relativa ao tam. atual da fonte
+        ex, tam da altura x da fonte
+         rem,relativo ao ruth, font conf no body
+        vw, largura da view-port,tamanho da tela
+        vh, altura da view-port
+        %, porcentagem
+        medida de font site, recomenda o PX e EM somente.
+        16px geralmente = 1em
+        */
+
+            font-family:'Work Sans', Arial, Helvetica, sans-serif;
+
+            font-size: 1em;
+
+            /*weight é o peso da font*/
+            /*lighter, normal, bold, bolder = alguns pesos da font
+            tambem pode usar n °de 100 até 800// mas é melhor as palavras*/
+            font-weight: lighter ;
+
+            /*tipos da font, italic, normal mas a grande maioria das fontes não tem variações*/
+            font-style: italic;
+
+            /*sublinhado*/
+            text-decoration: underline;
+        }
+        
+        h1 {
+            /* shorthand font (varias coisas em 1 unica linha)
+
+            font-family: 'Work Sans', sans-serif;
+            font-weight: bolder;
+            font-size: 3em;
+            font-style: italic;
+
+            1- font-style 2- font-weight 3- font-family
+            Abreviar, varias linhas de cód, em 1 só*/
+            font: italic bolder 3em 'worl sans', sans-serif;
+        }
+
+        h2 {
+            font: bold 2em 'Work sans';
+        }
+    </style>
+</head>
+<body>
+    <h1>Trabalhando com Fontes</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia deleniti facilis deserunt ducimus non harum corporis dolorem dignissimos ipsa, ex vero obcaecati assumenda, blanditiis neque veniam ipsam in accusamus incidunt. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Fugit quisquam velit commodi deleniti, nesciunt libero consequuntur dolor odio exercitationem. Rem soluta illo ea alias architecto fuga molestias quasi, culpa quae!</p>
+    <h2>Subtítulo do exercício</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum animi dignissimos, quia blanditiis explicabo eius velit eaque minus in pariatur enim id adipisci beatae perspiciatis sunt mollitia error ex nisi.</p>
+</body>
+</html>

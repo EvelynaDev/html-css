@@ -1,0 +1,23 @@
+PROJETO CURSO EM VIDEO
+PLANEJANTO O SITE
+
+1 - LAYOUT
+2 - CORES
+3 - FONTES
+
+
+1 - LAYOUT
+
+Site = MockFlow
+
+criar formato/modelo do site
+
+-> arraste os elementos e crie o seu site como quiser
+
+2 - CORES
+adobe color, ou outra ferramenta de pallestas
+
+3 - FONTES
+google fonts ou dafont
+
+
